@@ -7,3 +7,11 @@
  .font-raleway{
   font-family: "Raleway", sans-serif;      
  }
+
+ .dom_section{
+   background-color: #F7F8F8;   
+   /* border-color: #1DD100; */
+
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+ }
