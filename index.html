@@ -98,20 +98,20 @@
 
         <!-- DOM JS section -->
         <section class="w-full dom_section">
-          <div class="w-3/4 mx-auto m-10 p-10">
+          <div class="w-5/6 mx-auto m-5 p-2">
             <div class="text-center m-10">
               <h2 class="font-raleway font-bold text-3xl m-5">P.H Paribahan</h2>
               <p class="font-inter text-[#03071299]">Revolutionize travel with seamless, efficient smart ticketing. Digital solutions for modern commuters, enhancing convenience, speed, and sustainability in transportation.</p>
             </div>
 
             <!-- Seat-left- container starts -->
-            <div class="bg-white flex justify-center items-center">
+            <div class="bg-white flex-row lg:flex justify-center items-center rounded-xl">
 
               <!-- Greeline container -->
               <div class="gap-5">
                 <div class="flex justify-between gap-10 mb-5">
 
-                  <div class="flex gap-4">
+                  <div class="flex-row lg:flex gap-4">
                     <img src="./images/bus-logo.png" alt="">
                     <div>
                       <h3 class="font-raleway text-3xl font-bold">Greenline Paribahan</h3>
@@ -159,9 +159,213 @@
                 
               </div>
             </div>
-
             <!-- Seat-left- container starts -->
             
+
+            <!-- select your seat container starts -->
+            <div class="bg-white mt-10 rounded-xl p-10 flex-row lg:flex justify-start gap-4">
+
+              <!-- tables -->
+              <div>
+                 
+                <div>
+                  <p class="mb-4">Select your seat</p>
+                  <hr class="border-dashed border-gray-400">
+  
+                  <div class="flex justify-between my-4">
+                    <div class="flex gap-2">
+                      <img src="./images/seat-gray.png" alt="">
+                      <p>Available</p>
+                    </div>
+                    
+                    <div class="flex gap-2">
+                      <img src="./images/seat-green-filled.png" alt="">
+                      <p>Selected</p>
+                    </div>
+                    
+                    
+  
+                  </div>
+                  <hr class="border-dashed border-gray-400">
+                  <!-- <div>
+                    <button class="btn text-right flex justify-end my-4 absolute p-4 bottom-4"><img src="./images/icons8-steering-wheel-48.png" alt=""></button>
+                  </div>
+                   -->
+                
+                </div>
+  
+                <!-- select your seat tables starts-->
+                <br> 
+                <div class="flex-row lg:flex justify-between items-center">
+                  <!-- table left -->
+                  <div class="overflow-x-auto">
+                    <table class="table">
+                     
+                      <tbody>
+                        <!-- row 1 -->
+                        <tr>
+                          <th>A</th>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+                        <!-- row 2 -->
+                        <tr>
+                          <th>A</th>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+                        <!-- row 3 -->
+                        <tr>
+                          <th>A</th>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+  
+                        <!-- row 4 -->
+                        <tr>
+                          <th>A</th>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+  
+                        <!-- row 5 -->
+                        <tr>
+                          <th>A</th>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+  
+                      </tbody>
+                    </table>
+                  </div>
+  
+                  <!-- table right -->
+                  <div class="overflow-x-auto">
+                    <table class="table">
+                     
+                      <tbody>
+                        <!-- row 1 -->
+                        <tr>
+                          
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+                        <!-- row 2 -->
+                        <tr>
+                        
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+                        <!-- row 3 -->
+                        <tr>
+                        
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+  
+                        <!-- row 4 -->
+                        <tr>
+                         
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+  
+                        <!-- row 5 -->
+                        <tr>
+                         
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                          <td><button class="btn btn">Small</button></td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <!-- select your seat tables ends -->
+
+              </div>
+              
+              <!-- select your seat JS calculation starts -->
+              <div class="w-full m-2 p-2 border-l-2 border-dashed border-gray-300">  
+                
+                  <div>
+                    <h1>Select your seat</h1>
+                    <hr class="border-dashed border-gray-500 my-2">
+                  </div>
+
+                  <!-- add seat num and price using JS -->
+                  <div class="bg-[#F7F8F8] p-4 rounded-lg">
+
+                    <div class="flex justify-between">
+                      <h1>Seat</h1>
+                                       
+                      <h1>Class</h1>
+                                       
+                      <h1>Price</h1>  
+                    </div>
+
+                    <hr class="my-2">
+
+                    <!-- insert here -->
+                    <ul></ul>
+                    <hr class="my-2">
+
+                    <!-- apply coupon -->
+                    <div>
+
+                      <!-- total calculation -->
+                      <div class="flex justify-between">
+                        <p>Total price</p>
+                        <p>BDT <span>0</span></p>
+                      </div>
+                      <!-- <div class="md:flex lg:col-span-1 mt-32"> -->
+                      <div class="p-6 rounded-md">
+                          <div class="join">
+                            <input id="input-field" class="input input-bordered join-item w-40"
+                              placeholder="Have any coupon?"/>
+                            <button id="apply-btn" class="btn join-item rounded-md bg-[#1DD100] text-white font-bold">Apply</button>
+                          </div>
+                      </div> 
+                       
+                      <!-- grand total calculation -->
+                      <div class="flex justify-between">
+                        <p> Grand Total price</p>
+                        <p>BDT <span>0</span></p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- input field -->
+                  <div class="mt-4">
+                    <p class="py-2">Passenger Name*</p>
+                    <input type="text" name="" placeholder="Enter your name:" class="w-full p-2 border-2 border-[#F7F8F8] rounded-md">
+
+                    <p class="py-2">Phone number*</p>
+                    <input type="tel" name="" placeholder="Enter your phone num:" class="w-full p-2 border-2 border-[#F7F8F8] rounded-md">
+
+                    <p class="py-2">Email ID*</p>
+                    <input type="email" name="" placeholder="Enter your email id:" class="w-full p-2 border-2 border-[#F7F8F8] rounded-md">
+
+                    <div>
+                      <button class="btn btn-wide bg-[#1DD100] m-4 text-center">Next</button>
+                    </div>
+                  </div>
+              </div>
+              <!-- select your seat JS calculation ends -->
+
+            </div>
+
           </div>
           
         </section>
