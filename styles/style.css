@@ -21,13 +21,3 @@
    border-top-left-radius: 60px;
    border-top-right-radius: 60px;
  }
-.wheel-btn{
-  /* Rectangle 12 */
-position: absolute;
-width: 110px;
-height: 56px;
-left: 666px;
-right: -666px;
-top: 2346px;
-bottom: -2346px;
-}

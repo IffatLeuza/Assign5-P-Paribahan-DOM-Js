@@ -73,10 +73,12 @@ function updatedGrandTotal(parameter){
         if(cuponValue == "NEW15"){
             const discount = convertedTotal *.15;
             document.getElementById("grand-total").innerText = parseFloat(convertedTotal - discount).toFixed(2);
+            hideElementById("coupon-div");
         }
         else if(cuponValue == "Couple 20"){
             const discount = convertedTotal *.2;
             document.getElementById("grand-total").innerText = parseFloat(convertedTotal - discount).toFixed(2);
+            hideElementById("coupon-div");
         }
         else{
             alert("Wrong cupon code");
