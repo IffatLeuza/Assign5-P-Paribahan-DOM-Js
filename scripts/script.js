@@ -96,9 +96,17 @@ function updatedSeatSelected(){
     document.getElementById("seat-selected").innerText = convertedSeatSelected + 1;
 }
 
-
-
 function convertedIntNum(id){
     let getInnerText = document.getElementById(id).innerText;
     return parseInt(getInnerText);
- }
+}
+
+function hideElementById(id) {
+    const element = document.getElementById(id);
+    element.classList.add('hidden');
+}
+
+function showElementById(id) {
+    const element = document.getElementById(id);
+    element.classList.remove('hidden');
+}
